@@ -1,12 +1,57 @@
+# .gitignore file - Ignore these files and folders and wildcards
+# --------------------------------------------------------------
+# Ignore the .git folder from using a git repo
 .git/
-.idea/
+
+# Ignore log folder and *.log files
+log/
 logs/
+*.log
+
+# Ignore node dependency directories
 node_modules/
+
+# Ignore npm cache dir
+.npm/
+
+# Ignore the node package-lock
+package-lock.json
+
+# Ignore runtime data
+pid/
 pids/
 *.pid
-*.log
-*.rdb
-.idea/
+*.seed
+*.pid.lock
+
+# Ignore SSH and SSL files and folders
+.ssh/
+certs/
+
+# Ignore Google Drive upload files and folders
+.tmp.drivedownload/
+*.driveupload
+
+# Ignore Windows desktop file
+desktop.ini
+
+# Ignore the 29 file created in each directory by powershell, windows terminal, and whatever additional modules I have to make it fancy.
 29
-logs/
-package-lock.json
+
+# Ignore these files used for PM2
+.pm2/
+apps.json
+config.json
+ecosystem.config.js
+
+# below here, ignore these project specific files
+# ----------------------------------------------------------
+# Ignore these . folders
+
+# Ignore these folders
+.idea/
+
+# Ignore any file anything with these extensions
+*.rdb
+
+# Ignore these specific files
