@@ -26,10 +26,12 @@
     "errorLog": "/var/log/mysql/error.log",
     "lastErrorsSize": 100
   },
-  "apps": [ { "merge_logs": true,
-              "script": "index.js"
-            }
-          ],
+  "apps": [
+    {
+      "merge_logs": true,
+      "script": "index.js"
+    }
+  ],
   "homepage": "https://github.com/Im-Just-Blue/pm2-mysql2-monitor#readme",
   "license": "MIT",
   "repository": {
@@ -40,11 +42,13 @@
     "url": "https://github.com/Im-Just-Blue/pm2-mysql2-monitor/issues"
   },
   "author": "Keymetrics Inc.",
-  "contributor": [ { "name": "Eric Reinhardt",
-                     "email": "eric@imjustblue.com",
-                     "url": "https://www.imjustblue.com/"
-                   }
-                 ],
+  "contributor": [
+    {
+      "name": "Eric Reinhardt",
+      "email": "eric@imjustblue.com",
+      "url": "https://www.imjustblue.com/"
+    }
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
